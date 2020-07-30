@@ -276,8 +276,7 @@ def spectrum_based_decoys(spectra):
     np.random.seed(0)                           #to make it reproducible
     for spectrum in spectra:
 
-        intensities = spectrum.peaks.intensities
-        desired_no_peaks = len(intensities)
+        desired_no_peaks = len(spectrum.peaks)
         decoy_intensities = []
         decoy_mzs = []
         added_fragments = []
