@@ -2,8 +2,6 @@
 
 from matchms.filtering import select_by_relative_intensity
 
-
-
 #Keep only spectra with precursor_mz below max_mz, default 1000 Da.
     
 def require_precursor_below_mz(spectrum_in, max_mz = 1000):
