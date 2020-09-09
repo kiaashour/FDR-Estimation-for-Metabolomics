@@ -1,7 +1,5 @@
 #Creating Knockoffs from Gaussian Mixture Model
 
-
-
 import numpy as np
 
 #Functions required to create knockoffs
