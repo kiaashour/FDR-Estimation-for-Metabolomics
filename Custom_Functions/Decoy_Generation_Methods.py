@@ -2,8 +2,6 @@
 #The first is a naive approach and the second is a spectrum-based approach, 
 #where #added fragment ions are based on fragment ions previously added.
 
-
-
 from matchms import Spikes, Spectrum
 import numpy as np
 
